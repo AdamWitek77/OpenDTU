@@ -11,7 +11,7 @@
         "yield_today_wh": "Dzisiaj: %4.0f Wh",
         "yield_today_kwh": "Dzisiaj: %.1f kWh",
         "yield_total_kwh": "Całkowite: %.1f kWh",
-        "yield_total_mwh": "Całkowite: %.0f kWh"
+        "yield_total_mwh": "Całkowite: %.0f mWh"
     },
     "webapp": {
         "menu": {
@@ -197,7 +197,7 @@
             "FirmwareBuildDate": "Data oprogramowania sprzętowego",
             "HardwarePartNumber": "Numer części sprzętu",
             "HardwareVersion": "Wersja sprzętu",
-            "SupportsPowerDistributionLogic": "'Power Distribution Logic' supported",
+            "SupportsPowerDistributionLogic": "'Power Distribution Logic' wspierane",
             "Yes": "@:base.Yes",
             "No": "@:base.No"
         },
@@ -215,7 +215,7 @@
             "SystemInfo": "Informacje o systemie",
             "VersionError": "Błąd podczas odbierania wersji",
             "VersionNew": "Dostępna nowa wersja! Pokaż aktualizacje!",
-            "VersionOk": "Już zaktualizowano!"
+            "VersionOk": "Aktualna!"
         },
         "firmwareinfo": {
             "FirmwareInformation": "Informacje o oprogramowaniu",
@@ -598,7 +598,7 @@
             "ResetConfirm": "Reset do ustawień fabrycznych!",
             "Download": "Download",
             "Delete": "Delete",
-            "DeleteMsg": "Are you sure you want to delete file: '{name}'? You have to manually reboot the device to apply config changes!",
+            "DeleteMsg": "Czy na pewno chcesz usunąć plik: '{name}'? Aby zastosować zmiany konfiguracji, należy ponownie uruchomić urządzenie!",
             "Name": "Name",
             "Size": "Size",
             "Action": "Action",
@@ -648,7 +648,7 @@
             "TimeSyncLink": "Sprawdź ustawienia daty/godziny.",
             "DefaultPassword": "Używasz domyślnego hasła, aby uzyskać dostęp do interfejsu internetowego i do awaryjnego trybu punktu dostępu. Może to prowadzić do zagrożenia bezpieczeństwa.",
             "DefaultPasswordLink": "Zmień hasło.",
-            "PinMappingIssue": "You are using a generic firmware image, but have not yet uploaded a file with device profiles (<code>pin_mapping.json</code>) or have not selected a profile defined there. Please refer to the <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">documentation</a> for details."
+            "PinMappingIssue": "Używasz ogólnego obrazu oprogramowania sprzętowego, ale nie przesłałeś jeszcze pliku z profilami urządzeń (<code>pin_mapping.json</code>) lub nie wybrałeś profilu zdefiniowanego. Zapoznaj się z <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">dokumentacją</a> szczegółową."
         },
         "deviceadmin": {
             "DeviceManager": "Menedżer urządzeń",
