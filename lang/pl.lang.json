@@ -658,7 +658,7 @@
             "TimeSyncLink": "Sprawdź ustawienia daty/godziny.",
             "DefaultPassword": "Używasz domyślnego hasła, aby uzyskać dostęp do interfejsu internetowego i do awaryjnego trybu punktu dostępu. Może to prowadzić do zagrożenia bezpieczeństwa.",
             "DefaultPasswordLink": "Zmień hasło.",
-            "PinMappingIssue": "You are using a generic firmware image, but have not yet uploaded a file with device profiles (<code>pin_mapping.json</code>) or have not selected a profile defined there. Please refer to the <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">documentation</a> for details."
+            "PinMappingIssue": "Używasz ogólnego obrazu firmware, ale nie przesłałeś jeszcze pliku z profilami urządzeń (<code>pin_mapping.json</code>) lub nie wybrałeś profilu zdefiniowanego w tym pliku. Zapoznaj się z <a href=\"https://opendtu.solar/firmware/device_profiles/\" target=\"_blank\" class=\"alert-link\">dokumentacją</a> aby uzyskać szczegółowe informacje."
         },
         "deviceadmin": {
             "DeviceManager": "Menedżer urządzeń",
@@ -719,8 +719,8 @@
             "Module_webapi": "Interfejs API Web",
             "Module_async_ws": "Async WebSockets",
             "Module_async_tcp": "Async TCP",
-            "CoreHint": "Warning: A too detailed log level of the CORE module can significantly impact performance and lead to unpredictable behavior. The log level setting should only be temporarily adjusted for targeted troubleshooting. The default setting 'Error' is sufficient for normal operation.",
-            "log_inherit": "Inherit from default",
+            "CoreHint": "Ostrzeżenie: Zbyt szczegółowy poziom logowania modułu CORE może znacząco wpłynąć na wydajność i prowadzić do nieprzewidywalnego działania. Ustawienie poziomu logowania powinno być zmieniane tylko tymczasowo w celu ukierunkowanego rozwiązywania problemów. Domyślne ustawienie „Error” jest wystarczające do normalnej pracy.",
+            "log_inherit": "Dziedzicz z ustawień domyślnych",
             "log_none": "None",
             "log_error": "(E) Error",
             "log_warn": "(W) Warning",
